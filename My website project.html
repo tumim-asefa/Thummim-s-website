@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeuroExplorers</title>
+    <style>
+      h1 {
+        text-align: center;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        background-image: url("https://static.wixstatic.com/media/4e9dc2_a502edcc5aa4454c9e0244ca9f1f2f72~mv2.png/v1/fill/w_330,h_316,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4e9dc2_a502edcc5aa4454c9e0244ca9f1f2f72~mv2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+      }
+      .text-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 20px;
+        width: 50%;
+        max-height: 100vh;
+        overflow-y: auto;
+      }
+      p {
+        text-align: justify;
+        line-height: 1.5;
+      }
+      h2,
+      h3 {
+        text-align: center;
+      }
+      .text-box img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+      p {
+        text-align: justify;
+        line-height: 1.5;
+      }
+      button {
+        display: block;
+        margin: 20px auto 0;
+        background-image: linear-gradient(to top, #ffffff, #000000, #0072ce);
+        color: #ffffff;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+      }
+      button:hover {
+        color: #fff;
+        background: linear-gradient(to top, #ffffff, #000000, #0072ce) 00;
+        transition: all 200ms ease;
+        opacity: 2;
+        color: #0072ce;
+        cursor: pointer;
+      }
+      .morecontent:hover {
+        cursor: pointer;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+      }
+      li {
+        display: inline-block;
+        margin: 2em;
+      }
+      .primary img {
+        max-width: 150px;
+      }
+      :any-link {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="text-box">
+      <h1>NeuroScience<br />The Thummim's Neuroscience Journal</h1>
+      <hr />
+      <h2>Neuroscience and writing</h2>
+      <p>
+        Writing is a complex cognitive task that, while sharing many features
+        with spoken language production, is able to utilize unique memory
+        capacities. We make use of varying kinds of memory all the time. Studies
+        have shown that writing research and attempts to sketch a principled
+        account of how multiple sources of knowledge, stored in long-term
+        memory, are coordinated during writing within the constraints of working
+        memory.
+        <span
+          ><em
+            ><a
+              href="https://www.tandfonline.com/doi/abs/10.1207/S15326985EP3501_3#:~:text=Original%20Articles-,Knowledge%2C%20Processing%2C%20and%20Working%20Memory%3A%20Implications,for%20a%20Theory%20of%20Writing&text=This%20article%20surveys%20writing%20research,the%20constraints%20of%20working%20memory."
+              target="_blank"
+              >Taylor & Francis Online</a
+            ></em
+          ></span
+        >
+        .When we write a thought, our brain converts the words-which are symbols
+        into movement of the fingers and hands..
+      </p>
+      <image
+        src="https://d2cax41o7ahm5l.cloudfront.net/mi/upload-images/neuroscience--w--2021-43601.jpg"
+      >
+        <br />
+        <h3>Relation between Neuroscience and Linguistic <br /></h3>
+        <p>
+          Whenever we mention about writing, language and grammar are an
+          inevitable part of the conversation. As these are the tools which
+          gives beauty to our writing. The fundamental purpose of writing is to
+          convey information. Like all mental activites writing ability must
+          originate in our brain region. It wouldn't make sense if the reader go
+          through the article and fail to get the message. As such, the ways to
+          convey a message goes a long way into ensuring that readers get the
+          most out of it. Recent developments in the field of cognitive
+          neuroscience shows that production and comprehension takes place in a
+          kind of language network distributed across several regions of brain.
+        </p>
+        <img
+          src="https://static.wixstatic.com/media/4e9dc2_9a7b5658c615454488ab69c0f5d5c270~mv2.jpg/v1/fill/w_330,h_316,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/4e9dc2_9a7b5658c615454488ab69c0f5d5c270~mv2.jpg"
+        />
+        <br />
+        <ul class="primary">
+          <li>
+            <a
+              href="https://urim1.blogspot.com/2023/07/the-science-of-brain-harnessing-power.html"
+              target="_blank"
+              alt="VisitMy Blog"
+            >
+              <img
+                src="https://urim1.blogspot.com/2023/07/the-science-of-brain-harnessing-power.html"
+                alt="VisitMy Blog"
+              />
+            </a>
+          </li>
+        </ul>
+        <button>Sign up to my Blog Post</button>
+        <script>
+          function signup() {
+            let name = prompt("What is your name?");
+            let age = prompt("How old are you?");
+            if (age < 18) {
+              alert("Explore some basic concepts in Neuroscience!");
+            } else {
+              alert("Dive deeper into the field of Neuroscience!");
+            }
+          }
+          let changeButton = document.querySelector("button");
+          changeButton.addEventListener("click", signup);
+        </script>
+        <hr />
+        This page was built by
+        <a
+          href="www.linkedin.com/in/
+thummim-asefa-515a3626a
+"
+          target="_blank"
+        >
+          <strong>Tumim Assefa</strong></a
+        >
+      </image>
+    </div>
+  </body>
+</html>
